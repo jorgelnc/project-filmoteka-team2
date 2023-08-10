@@ -1,9 +1,9 @@
 import { getTrending } from './api';
 import { searchMovieName } from './api';
 import { createGalleryPage } from './create-gallery-page';
+import { createPagination } from './pagination';
 import colors from './colors';
 import refs from './ref';
-// import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { Notify, Loading } from 'notiflix';
 
 Loading.init({
@@ -47,7 +47,7 @@ function onEnterKeyPress(event) {
 function onSearchBtn(e) {
   e.preventDefault();
   let movie = input.value.trim();
-  // console.log(movie);
+
   Loading.standard();
   searchMovieName(movie, 1) // Pasa el parámetro `movie` y establece `page` como 1
     .then(data => {

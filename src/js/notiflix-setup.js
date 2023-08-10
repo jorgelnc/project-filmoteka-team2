@@ -1,8 +1,6 @@
 import colors from './colors';
 import Notiflix from 'notiflix';
 
-
-
 export function notiflixSetup() {
     Notiflix.Report.init({
         backOverlay: true,

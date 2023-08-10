@@ -54,7 +54,8 @@ function refresh(data, id) {
       watched.splice(watched.indexOf(id), 1);
       setWatchedLocalStorage(watched);
       addWatchedRef.style.backgroundColor = colors.colorHeader;
-      //HACER FUNCION UPDATE LIBRARY
+
+      //FUNCION ACTUALIZAR LIBRERIA
       if (!watched.length) {
         if (headerRef.classList.contains('hero--lib')) {
           if (watchedRef.classList.contains('search__button__active')) {
@@ -99,7 +100,6 @@ function refresh(data, id) {
             .catch(er => console.log(er));
         }
       }
-      //   setWatchedLocalStorage(watched);
     }
     refs.modalContent.innerHTML = '';
     refresh(data, id);
@@ -130,8 +130,8 @@ function refresh(data, id) {
               </div>`;
           }
         }
-         refs.modalContent.innerHTML = '';
-         refresh(data, id);
+        refs.modalContent.innerHTML = '';
+        refresh(data, id);
         return;
       }
       if (headerRef.classList.contains('hero--lib')) {
@@ -145,7 +145,7 @@ function refresh(data, id) {
       }
     } else {
       onAddToQueue(id);
-      //   setQueueLocalStorage(queue);
+
       if (headerRef.classList.contains('hero--lib')) {
         if (queueRef.classList.contains('search__button__active')) {
           getArrayofMovies(queue)

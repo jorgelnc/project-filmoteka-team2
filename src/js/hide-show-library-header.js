@@ -1,6 +1,4 @@
 
-// window.removeEventListener('scroll', onScrollGallery);
-
 window.addEventListener('scroll', onScrollLibrary);
 
 function onScrollLibrary(event) {
@@ -13,7 +11,7 @@ function onScrollLibrary(event) {
     setTimeout(function () {
       header.classList.remove('hidden');
       library.classList.remove('top');
-    }, 100); // Espera 300 milisegundos (0.3 segundos) antes de eliminar la clase "hidden"
+    }, 100); 
   }
 }
 
