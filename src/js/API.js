@@ -46,4 +46,3 @@ export async function searchMovieName(movieName, page) {
     })
     .catch(error => console.log(error));
 }
-// hola a todos

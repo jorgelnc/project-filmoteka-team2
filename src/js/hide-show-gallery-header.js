@@ -10,6 +10,6 @@ function onScrollGallery(event) {
     setTimeout(function () {
       header.classList.remove('hidden');
       gallery.classList.remove('top');
-    }, 100); // Espera 300 milisegundos (0.3 segundos) antes de eliminar la clase "hidden"
+    }, 100);
   }
 }

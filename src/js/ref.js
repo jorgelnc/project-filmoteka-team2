@@ -5,7 +5,7 @@ const refs = {
   divBackdrop: document.querySelector('.js-backdrop'),
   closeModalBtn: document.querySelector('.modal__btn-close'),
   modalContent: document.querySelector('.modal__des'),
-  pagination: document.querySelector('.pagination'),
+  pagination: document.querySelector('.tui-pagination'),
   libraryForEmptyStyle: document.querySelector('.gallery')
 };
 

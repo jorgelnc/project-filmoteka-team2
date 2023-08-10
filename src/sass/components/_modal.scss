@@ -24,9 +24,8 @@ body.show-modal .backdrop {
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
-
   transition: opacity $duration $timing-function,
-    visibility $duration $timing-function;
+  visibility $duration $timing-function;
 }
 
 body.show-modal {

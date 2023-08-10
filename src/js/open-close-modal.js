@@ -6,7 +6,7 @@ refs.closeModalBtn.addEventListener('click', onCloseModal);
 refs.divBackdrop.addEventListener('click', onBackDropClick);
 
 function onOpenModal(event) {
-  //   console.log('open modal');
+
   const getParentalEl = event.target.closest('.movie__card');
   if (!getParentalEl) {
     return;
@@ -14,8 +14,7 @@ function onOpenModal(event) {
 
   const movieId = getParentalEl.dataset.movie;
 
-  //   console.log(movieId);
-    loadIntoModal(movieId);
+  loadIntoModal(movieId);
 
   document.body.classList.add('show-modal');
   window.addEventListener('keydown', onEscKeyPress);
