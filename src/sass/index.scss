@@ -1,2 +1,8 @@
-@import './common';
-@import './example';
+@import './utils/variables.scss';
+@import './components/header';
+@import './components/gallery';
+@import './components/gallery-card';
+@import './components/headerLib';
+@import './components/headerMain';
+@import './components/modal';
+@import './components/footer';
