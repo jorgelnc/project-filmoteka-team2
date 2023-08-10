@@ -38,7 +38,6 @@ export async function getArrayofMovies(array) {
 }
 
 export async function searchMovieName(movieName, page) {
-
   const url = `${MAIN_URL}/search/movie?api_key=${API_KEY}&query=${movieName}&language=en-US&page=${page}`;
   return await axios
     .get(url)
@@ -47,4 +46,4 @@ export async function searchMovieName(movieName, page) {
     })
     .catch(error => console.log(error));
 }
-
+// hola a todos
