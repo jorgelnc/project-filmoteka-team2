@@ -1,5 +1,5 @@
-import { getTrending } from './api';
-import { searchMovieName } from './api';
+import { getTrending } from './API';
+import { searchMovieName } from './API';
 import { createGalleryPage } from './create-gallery-page';
 import { createPagination } from './pagination';
 import colors from './colors';
