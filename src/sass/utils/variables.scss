@@ -1,0 +1,37 @@
+$color-header: #ffffff;
+$color-body: #000000;
+$color-footer: #545454;
+$color-film-data-title: #8C8C8C;
+$color-logo-icon: #818181;
+$color-main: #ff6b08;
+$color-main-sec: #ff6b01;
+$color-link-underline: #ff001b;
+$color-link-hover: #cccccc;
+$color-bg: #e5e5e5;
+$color-bg-footer: #f7f7f7;
+$color-text-placeholder: #505050;
+$color-text-invalid: #ff705d;
+$color-inactive-form: #cccccc;
+$font-main: 'Roboto', sans-serif;
+$duration: 250ms;
+$timing-function:cubic-bezier(0.4,0,0.2,1); 
+
+
+.container {
+  margin: 0 auto;
+
+  @media (max-width: 767px) {
+    max-width: 320px;
+    padding: 0 20px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    width: 768px;
+    padding: 0 32px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 1024px;
+    padding: 0 32px;
+  }
+}
