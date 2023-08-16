@@ -7,7 +7,7 @@ import {
   setWatchedLocalStorage,
 } from './set-get-local-storage';
 import noposter from '../images/noposter.jpg';
-import { getInfoMovie, getArrayofMovies } from './api';
+import { getInfoMovie, getArrayofMovies } from './API';
 import { createLibraryMarkup } from './create-library-markup';
 import colors from './colors';
 import Notiflix from 'notiflix';

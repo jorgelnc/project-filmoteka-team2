@@ -1,7 +1,7 @@
 import { createLibraryMarkup } from './create-library-markup';
 import refs from './ref';
 import { watched, queue, getLibStateLocalStorage, setLibStateLocalStorage} from './set-get-local-storage';
-import { getArrayofMovies } from './api';
+import { getArrayofMovies } from './API';
 import Notiflix from 'notiflix';
 import { notiflixSetup } from './notiflix-setup';
 import colors from './colors';
